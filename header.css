@@ -1,5 +1,22 @@
 header {
   background-color: #e24647;
+  overflow: hidden;
+  margin-left: 115px;
+  margin-right: 115px;
+  /* margin: 0 115px; o zero indica que o top e bottom não precisa alterar.
+
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 55px;
+  padding-bottom: 95px;
+
+  /* forma resumida nessa ordem: padding: top rigth bottom left;*/
+
+  padding: 60px 60px 55px 95px;
+
+  /* se todos tivessem o mesmo valor: 
+  padding: top/rigth/bottom/left; 
+  padding 60px; */
 }
 
 h1 {
@@ -8,13 +25,16 @@ h1 {
 
 h1 {
   font-size: 40px;
+  font-family: Arial, "Roboto", sans-serif;
+  float: left;
 }
 
-a {
+nav {
   font-size: 21px;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  float: right;
 }
 a {
   color: #fff;
-
   text-decoration: none;
 }
