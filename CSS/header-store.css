@@ -10,6 +10,7 @@
   font-family: Arial, "Roboto", sans-serif;
   float: left;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .header-store > .navigation {
@@ -25,14 +26,15 @@
   font-family: Arial, "Roboto", sans-serif;
   font-size: 20px;
   color: #fff;
-  padding: 8px;
+  padding-bottom: 8px;
   width: 358px;
   margin-right: 65px;
 }
 
-.header-store .placeholder {
-  color: #fff;
+.header-store [type="search"]::placeholder {
+  opacity: 1;
 }
+
 .header-store .action {
   color: inherit;
   text-decoration: none;
